@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <!-- dark background -->
+  <rect width="32" height="32" rx="5" fill="#111214"/>
+
+  <!-- pizza-cutter tires: inset so they sit under the fenders -->
+  <line x1="7"  y1="6" x2="7"  y2="31" stroke="#f5a623" stroke-width="2" stroke-linecap="round"/>
+  <line x1="25" y1="6" x2="25" y2="31" stroke="#f5a623" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- dark mask hides tires behind body/fender — only stub below fender line shows (lifted) -->
+  <rect x="5" y="6.5" width="22" height="16" fill="#111214"/>
+
+  <!-- truck body outline -->
+  <rect x="5.5" y="7" width="21" height="15" rx="1.5" fill="none" stroke="#f5a623" stroke-width="1.5"/>
+
+  <!-- windshield: angled A-pillars, wider at bottom (boxy 80s rake) -->
+  <polygon points="8.5,8 23.5,8 25,12.5 7,12.5"
+           fill="none" stroke="#f5a623" stroke-width="0.9" opacity="0.55"/>
+
+  <!-- left headlight -->
+  <rect x="6.5" y="13.5" width="4.5" height="3.5" rx="0.5" fill="none" stroke="#f5a623" stroke-width="1.1"/>
+  <!-- right headlight -->
+  <rect x="21"  y="13.5" width="4.5" height="3.5" rx="0.5" fill="none" stroke="#f5a623" stroke-width="1.1"/>
+
+  <!-- center grille -->
+  <rect x="12" y="13.5" width="8" height="7.5" rx="0.5" fill="none" stroke="#f5a623" stroke-width="1.1"/>
+  <line x1="12" y1="16"   x2="20" y2="16"   stroke="#f5a623" stroke-width="0.8"/>
+  <line x1="12" y1="18.5" x2="20" y2="18.5" stroke="#f5a623" stroke-width="0.8"/>
+</svg>
