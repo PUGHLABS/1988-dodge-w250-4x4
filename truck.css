@@ -608,7 +608,8 @@ footer p + p { margin-top: 6px; }
   .hero-lbl { font-size: 0.65rem; }
   .section { padding: 48px 0; }
   .section-desc { font-size: 1rem; }
-  .section-nav a { padding: 12px 14px; font-size: 0.82rem; }
+  .section-nav { flex-wrap: wrap; justify-content: center; border-radius: 0; }
+  .section-nav a { padding: 10px 12px; font-size: 0.8rem; }
   .upgrade-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
   .timeline { padding-left: 84px; }
   .timeline::before { left: 64px; }
