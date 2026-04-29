@@ -603,8 +603,9 @@ footer p + p { margin-top: 6px; }
 @media (max-width: 700px) {
   .hero { padding: 40px 16px 0; }
   .hero-sub { font-size: 0.85rem; }
-  .hero-stats { gap: 16px; flex-wrap: wrap; }
-  .hero-stat { min-width: 72px; }
+  .hero-stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; overflow-x: unset; }
+  .hero-val { font-size: 1.3rem; }
+  .hero-lbl { font-size: 0.65rem; }
   .section { padding: 48px 0; }
   .section-desc { font-size: 1rem; }
   .section-nav a { padding: 12px 14px; font-size: 0.82rem; }
@@ -622,8 +623,8 @@ footer p + p { margin-top: 6px; }
   main { padding: 0 14px; }
   .truck-feature-photo { margin: 0 -14px; }
   .hero { padding: 32px 14px 0; }
-  .hero-stats { gap: 12px; }
-  .hero-val { font-size: 1.4rem; }
+  .hero-stats { grid-template-columns: repeat(2, 1fr); }
+  .hero-val { font-size: 1.2rem; }
   .upgrade-grid { grid-template-columns: 1fr; }
   .timeline { padding-left: 0; }
   .timeline::before { display: none; }
