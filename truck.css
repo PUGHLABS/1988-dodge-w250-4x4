@@ -56,6 +56,24 @@ body {
   background: linear-gradient(135deg, #0d0f11 0%, #1a1d22 55%, #0f1215 100%);
   padding: 72px 24px 0;
   text-align: center;
+  position: relative;
+}
+
+.hero-qr {
+  position: absolute;
+  top: 16px;
+  left: 24px;
+  opacity: 0.75;
+  transition: opacity 0.2s;
+  border-radius: 6px;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.hero-qr:hover { opacity: 1; }
+
+@media (max-width: 700px) {
+  .hero-qr { display: none; }
 }
 
 
